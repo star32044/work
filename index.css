@@ -1,8 +1,13 @@
 *{margin: 0;
   padding: 0;}
+  .wrap{
+     max-width: 1200px;
+    margin: auto;
+  }
   .grid{
     display: grid;
-    grid-template-columns: 2fr 5fr;
+
+    grid-template-columns: 3fr 5fr;
   }
   .grid >div{
     border: 1px solid #000;
